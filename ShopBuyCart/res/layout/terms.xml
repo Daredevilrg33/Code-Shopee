@@ -1,0 +1,189 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:alpha="1.0"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#99F2F2F2"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="1" >
+
+                <ImageView
+                    android:id="@+id/back"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:src="@drawable/back" />
+
+                <TextView
+                    android:id="@+id/appname"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="TERMS AND CONDITIONS"
+                    android:textColor="#F6A81A"
+                    android:textSize="14dp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/fav"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/heart_active"
+                    android:visibility="invisible" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@drawable/dividing_line"
+                android:orientation="vertical" >
+            </LinearLayout>
+        </LinearLayout>
+
+        <ScrollView
+            android:id="@+id/background"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+             android:background="@drawable/splash"
+             android:alpha="2.0">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#99f2f2f2"
+                android:orientation="vertical"
+                android:padding="5dp" >
+
+                <TextView
+                    android:id="@+id/content"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_margin="10dp"
+                    android:text="Terms Condition
+Terms &amp; Conditions
+Please read the following terms and conditions very carefully as your use of service is subject to your acceptance of and compliance with the following terms and conditions (Terms).
+By subscribing to or using any of our services you agree that you have read, understood and are bound by the Terms, regardless of how you subscribe to or use the services. If you do not want to be bound by the Terms, you must not subscribe to or use our services.
+
+In these Terms, references to you, User shall mean the end user accessing the Website, its contents and using the Services offered through the Website. Service Providers mean independent third party service providers, and we, us and our shall mean Mvaska garments Limited, its franchisor, affiliates and partners.
+Introduction:
+www.shopee.com website (Website) is an Internet based content and e-commerce portal operated by Mvaska garments Limited, a company incorporated under the laws of India.
+Use of the Website is offered to you conditioned on acceptance without modification of all the terms, conditions and notices contained in these Terms, as may be posted on the Website from time to time. Shopee.com at its sole discretion reserves the right not to accept a User from registering on the Website without assigning any reason thereof.
+User Account, Password, and Security:
+You will receive a password and account designation upon completing the Website&apos;s registration process. You are responsible for maintaining the confidentiality of the password and account, and are fully responsible for all activities that occur under your password or account. You agree to (a) immediately notify Shopee.com of any unauthorized use of your password or account or any other breach of security, and (b) ensure that you exit from your account at the end of each session. Shopee.com cannot and will not be liable for any loss or damage arising from your failure to comply with this Section 2 of IT act.
+Services Offered:
+Shopee.com provides a number of Internet-based services through the Web Site (all such services, collectively, the Service). One such service enables users to purchase original merchandise such as clothing, footwear and accessories from various fashion and lifestyle brands. (collectively, Products). Upon placing an order, Shopee.com shall ship the product to you and be entitled to its payment for the Services.
+Privacy Policy:
+
+The User hereby consents, expresses and agrees that he has read and fully understands the Privacy Policy of Shopee.com the Website. The user further consents that the terms and contents of such Privacy Policy are acceptable to him.
+Limited User:
+
+The User agrees and undertakes not to reverse engineer, modify, copy, distribute, transmit, display, perform, reproduce, publish, license, create derivative works from, transfer, or sell any information or software obtained from the Website. Limited reproduction and copying of the content of the Website is permitted provided that Shopee name is stated as the source and prior written permission of Shopee.com is sought. For the removal of doubt, it is clarified that unlimited or wholesale reproduction, copying of the content for commercial or non-commercial purposes and unwarranted modification of data and information within the content of the Website is not permitted.
+User Conduct and Rules:
+You agree and undertake to use the Website and the Service only to post and upload messages and material that are proper. By way of example, and not as a limitation, you agree and undertake that when using a Service, you will not: defame, abuse, harass, stalk, threaten or otherwise violate the legal rights of others; publish, post, upload, distribute or disseminate any inappropriate, profane, defamatory, infringing, obscene, indecent or unlawful topic, name, material or information; upload files that contain software or other material protected by intellectual property laws unless you own or control the rights thereto or have received all necessary consents; upload or distribute files that contain viruses, corrupted files, or any other similar software or programs that may damage the operation of the Website or another&apos;s computer; conduct or forward surveys, contests, pyramid schemes or chain letters; download any file posted by another user of a Service that you know, or reasonably should know, cannot be legally distributed in such manner; falsify or delete any author attributions, legal or other proper notices or proprietary designations or labels of the origin or source of software or other material contained in a file that is uploaded; violate any code of conduct or other guidelines, which may be applicable for or to any particular Service; violate any applicable laws or regulations for the time being in force in or outside India; and violate any of the terms and conditions of this Agreement or any other terms and conditions for the use of the Website contained elsewhere herein. exploit any of the services. We reserve the right to deprive individual customers of our Cash on Delivery payment option. Moreover, we might refuse any of our services, terminate accounts, and/or cancel orders at our discretion, including but not limited to, if we believe that customer conduct violates applicable law or is harmful to our interests.
+ You shall not make any derogatory, defamatory, abusive, inappropriate, profane or indecent statement/s and/or comment/s about Shopee.com, its associates and partners on any property owned by Shopee.com.
+User Warranty and Representation:
+The user guarantees, warrants, and certifies that you are the owner of the content which you submit or otherwise authorised to use the content and that the content does not infringe upon the property rights, intellectual property rights or other rights of others. You further warrant that to your knowledge, no action, suit, proceeding, or investigation has been instituted or threatened relating to any content, including trademark, trade name service mark, and copyright formerly or currently used by you in connection with the Services rendered by Shopee.com.
+Exactness Not Guaranteed:
+Shopee.com hereby disclaims any guarantees of exactness as to the finish and appearance of the final Product as ordered by the user. The quality of any products, Services, information, or other material purchased or obtained by you through the Website may not meet your expectations. Alterations to certain aspects of your order such as the merchandise brand, size, colour etc. may be required due to limitations caused by availability of product difference in size charts of respective brands etc. In this instance you agree that a representative from Shopee.com will call you or send an approval request via the email address which you submitted when placing your order. If you do not agree with the requested change you retain the right to reject the requested production change by replying to it within 10 days of it being sent to you. Shopee.com may re-request that you accept a production alteration one additional time if an alternative method to send your merchandise is available. If you reject this 2nd request your order will be cancelled and you will be fully refunded via your initial method of payment.
+Intellectual Property Rights:
+Unless otherwise indicated or anything contained to the contrary or any proprietary material owned by a third party and so expressly mentioned, Shopee.com owns all Intellectual Property Rights to and into the Website, including, without limitation, any and all rights, title and interest in and to copyright, related rights, patents, utility models, trademarks, trade names, service marks, designs, know-how, trade secrets and inventions (whether patentable or not), goodwill, source code, meta tags, databases, text, content, graphics, icons, and hyperlinks. You acknowledge and agree that you shall not use, reproduce or distribute any content from the Website belonging to Shopee.com without obtaining authorization from Shopee.com.
+Notwithstanding the foregoing, it is expressly clarified that you will retain ownership and shall solely be responsible for any content that you provide or upload when using any Service, including any text, data, information, images, photographs, music, sound, video or any other material which you may upload, transmit or store when making use of our various Service. However, with regard to the product customization Service (as against other Services like blogs and forums) you expressly agree that by uploading and posting content on to the Website for public viewing and reproduction/use of your content by third party users, you accept the User whereby you grant a non-exclusive license for the use of the same.
+Links To Third Party Sites:
+The Website may contain links to other websites (Linked Sites).The Linked Sites are not under the control of Shopee.com or the Website and Shopee.com is not responsible for the contents of any Linked Site, including without limitation any link contained in a Linked Site, or any changes or updates to a Linked Site. Shopee.com is not responsible for any form of transmission, whatsoever, received by you from any Linked Site. Shopee.com is providing these links to you only as a convenience, and the inclusion of any link does not imply endorsement by Shopee.com or the Website of the Linked Sites or any association with its operators or owners including the legal heirs or assigns thereof. The users are requested to verify the accuracy of all information on their own before undertaking any reliance on such information.
+Disclaimer Of Warranties/Limitation Of Liability:
+Shopee.com has endeavoured to ensure that all the information on the Website is correct, but Shopee.com neither warrants nor makes any representations regarding the quality, accuracy or completeness of any data, information, product or Service. In no event shall Shopee.com be liable for any direct, indirect, punitive, incidental, special, consequential damages or any other damages resulting from: (a) the use or the inability to use the Services; (b) unauthorized access to or alteration of the user&apos;s transmissions or data; (c) any other matter relating to the services; including, without limitation, damages for loss of use, data or profits, arising out of or in any way connected with the use or performance of the Website or Service. Neither shall Shopee.com be responsible for the delay or inability to use the Website or related services, the provision of or failure to provide Services, or for any information, software, products, services and related graphics obtained through the Website, or otherwise arising out of the use of the website, whether based on contract, tort, negligence, strict liability or otherwise. Further, Shopee.com shall not be held responsible for non-availability of the Website during periodic maintenance operations or any unplanned suspension of access to the website that may occur due to technical reasons or for any reason beyond Shopee.com&apos;s control. The user understands and agrees that any material and/or data downloaded or otherwise obtained through the Website is done entirely at their own discretion and risk and they will be solely responsible for any damage to their computer systems or loss of data that results from the download of such material and/or data.
+Indemnification:
+You agree to indemnify, defend and hold harmless Shopee.com from and against any and all losses, liabilities, claims, damages, costs and expenses (including legal fees and disbursements in connection therewith and interest chargeable thereon) asserted against or incurred by Shopee.com that arise out of, result from, or may be payable by virtue of, any breach or non-performance of any representation, warranty, covenant or agreement made or obligation to be performed by you pursuant to these Terms.
+Pricing:
+
+Prices for products are described on our Website and are incorporated into these Terms by reference. All prices are in Indian rupees. Prices, products and Services may change at Shopee.com’s discretion.
+Shipping:
+
+Title and risk of loss for all products ordered by you shall pass on to you upon Shopee.com&apos;s shipment to the shipping carrier.
+Termination:
+Shopee.com may suspend or terminate your use of the Website or any Service if it believes, in its sole and absolute discretion that you have breached any of the Terms.If you or Shopee.com terminates your use of the Website or any Service, Shopee.com may delete any content or other materials relating to your use of the Service and Shopee.com will have no liability to you or any third party for doing so.
+You shall be liable to pay for any Service or product that you have already ordered till the time of Termination by either party whatsoever. Further, you shall be entitled to your royalty payments as per the User License Agreement that has or is legally deemed accrued to you.
+Governing Law:
+
+These terms shall be governed by and constructed in accordance with the laws of India without reference to conflict of laws principles and disputes arising in relation hereto shall be subject to the exclusive jurisdiction of the courts at Bathinda.
+Headings:
+The headings and subheadings herein are included for convenience and identification only and are not intended to describe, interpret, define or limit the scope, extent or intent of the Terms or the right to use the Website by you contained herein or any other section or pages of the Website or any Linked Sites in any manner whatsoever.
+Interpretation Of Number And Genders:
+
+The Terms herein shall apply equally to both the singular and plural form of the terms defined. Whenever the context may require, any pronoun shall include the corresponding masculine and feminine. The words include, includes and including shall be deemed to be followed by the phrase without limitation. Unless the context otherwise requires, the terms herein, hereof, hereto, hereunder and words of similar import refer to the Terms as a whole.
+Severability:
+
+If any provision of the Terms is determined to be invalid or unenforceable in whole or in part, such invalidity or unenforceability shall attach only to such provision or part of such provision and the remaining part of such provision and all other provisions of these Terms shall continue to be in full force and effect.
+Report Abuse:
+As per these Terms, users are solely responsible for every material or content uploaded on to the Website. Shopee.com does not review the contents in any way before they appear on the Website. Shopee.com does not verify, endorse or otherwise vouch for the contents of any user or any content generally posted or uploaded on to the Website. Users can be held legally liable for their contents and may be held legally accountable if their contents or material include, for example, defamatory comments or material protected by copyright, trademark, etc. If you come across any abuse or violation of these Terms, please report to reportabuse@Shopee.com.
+Unauthorized Charges on your card
+If you see charges on your credit/debit card for purchases made on Shopee.com, but you never created an account or signed up, please check with your family members or business colleagues authorized to make purchases on your behalf, to confirm that they haven&apos;t placed the order. If you&apos;re still unable to recognize the charge, please report the unauthorized purchase within 60 days of the transaction to enable Shopee to begin an investigation.
+Cancellation of Fraudulent Orders 
+To provide a safe and secure shopping experience, we regularly monitor transactions for fraudulent activity. In the event of detecting any suspicious activity, Shopee.com reserves the right to cancel all past, pending and future orders without any liability. Shopee.com also reserves the right to refuse or cancel orders in scenarios like inaccuracies in pricing of product on website and stock unavailability. We may also require additional verifications or information before accepting any order. We will contact you if all or any portion of your order is cancelled or if additional information is required to accept your order. If your order is cancelled after your card has been charged, the said amount will be reversed to your Card Account. Any promotional voucher used for the cancelled orders may not be refunded.
+What we do about mispricings
+Despite our best efforts, a small number of the many hundreds of items in our catalogue are mispriced. However, we verify prices as part of our dispatch procedures.
+If an item&apos;s correct price is lower than our stated price, we charge the lower amount and send you the item.
+If a product&apos;s correct price is higher than our stated price, we will cancel your order and notify you of that cancellation.
+Terms For Promotions/Contests/Offers/Campaigns
+General Terms for Offers and Promotions
+1.Discounts will be applied to the total merchandise value including VAT and applicable taxes. Issuance or redemption of a voucher or coupon will apply to        the total value of the qualifying order once all promotional discounts have been applied.
+2.Only one credit note/gift coupon/coupon can be used per order unless otheriwise stated.
+3. Discount coupons - Discount coupons may from time to time be offered to account holders; such coupons may only be applied to purchases made            through the account to which the discount coupon was offered and registered. If you need a refund, this will be made in the same way as the original payment method (such as onto a gift voucher, debit/credit card account, a combination of the two and in case of COD, a Bank Transfer). 
+4.Promotional discount coupons - We may from time to time offer promotional discount coupons which may apply in respect of any, or certain specified, purchases made though this Website. Shopee.com shall introduce various offers, schemes or contest at different times. The terms and conditions for such Contest shall be separately available on the Site. Shopee.com reserves the right to change/modify/add/delete any of the terms and conditions prevailing on the different promotional schemes it introduces in market from time to time. Shopee.com, at its discretion, can withdraw a particular scheme from the website or market.
+In case of any query pertaining to use of coupon and/or credit note or regarding the schemes, please email customer care at care@Shopee.com or call @ 0164-5007405.
+While participating in any Shopee.com contest you hereby agree to release and hold Shopee.com (and its officers, directors, agents, subsidiaries, affiliates, joint ventures, and employees) harmless from any claim or demand, but not limited to reasonable attorneys&apos; fees, or arising out of or related to your participation in the said Contest.Shopee reserves the right to cancel any orders placed using promotional vouchers. Some situations where your order may be cancelled include, without limitation, misuse of any promotional vouchers, unauthorized usage of vouchers or inaccuracies of voucher pricing and value thresholds. The voucher amount will not be refunded for such cases.
+Suitable legal action will be taken against websites involved in unauthorized publication of Shopee vouchers. Shopee.com will only honor vouchers which are issued or published directly by us or our partner websites. 
+Registration Coupon Rules:
+1.The INR 500 coupon can be used up to 2 times and will be redeemable on a transaction of INR 2500 or above.
+2.The INR 1000 coupon can be used once and will be redeemable on a transaction of INR 4000 or above.
+3.You can use these coupons across all full priced products from shoes, clothing and sun-glasses.
+4.Coupons can only be used to buy full priced (non-discounted) products.
+5.Coupons can not be clubbed with any other offer.
+6.For a single transaction, only one coupon can be used.
+7.Coupon is valid for 30 days from registration.
+.
+Bank Specific Coupon Rules:
+Axis Bank Coupon Rule
+HDFC Bank Coupon Rule
+ICICI Bank Coupon Rule
+Company Specific Coupon Rules
+Coupon for Mvaska conglomerate Employees
+Terms &amp; Conditions for End of Season Sale (EOSS)
+The End of Season Sale runs till stock lasts. Sale up to 60% off does not imply that all products are on 60% discount; SALE is on only 60% products but this number will change as and when stock levels decrease. This End of Season SALE is only applicable in India, and is in ‘Mucey and Mvaska’.
+Discounted items not come under the ambit of Consumer case.
+Sign up coupons cannot be used against sale/discounted items. For more details read registration coupon rules.
+Sale/discounts apply to selected items only. Although there are many brands on SALE, there might be some exclusion.
+Due to technical issues, typographical errors or information received from our suppliers and service providers, prices of the products shown on the Site may vary during the order process. If you come across any errors in pricing or billing, we request you to contact us within 24 hours of receiving your order so that we may provide a remedy for the same.
+Promotional offers and discounts may be combined only at the discretion of Shopee.com.
+All offers are non-transferable and have no cash value.
+Shopee.com reserves the right to extend or terminate the offers/sale, without further information at any point of time.
+Shopee.com reserves the right, at any time, to amend/add/remove/modify (in whole or part) any of the terms &amp; conditions of this sale, or to replace, wholly or in part, this promotion by another promotion, whether similar to this promotion or not, or to withdraw it altogether, and Shopee.com’s decision in this regard shall be final and requires no intimation to the customer of any sort.
+All refund will be in the form of vouchers only. 
+In case of any further query pertaining to use of coupon and/or credit note or regarding the sale/offers, please email customer care at care@Shopee.com or call @ 0164-5007405 
+Disclaimer:
+
+It is the customer&apos;s responsibility to login earlier if they want to avail better products or styles because Shopee.com sales are first come, first served. The merchandise is not restocked once sold out. No information regarding the presence of any Product in our stock will be guaranteed and we will alert you only when an item is sold out.
+The terms and conditions for such Contest shall be separately available on the Site. In the event of any conflict between these T&amp;C and the terms and conditions pertaining to any Contest, such terms and conditions shall prevail.
+
+We as a merchant shall be under no liability whatsoever in respect of any loss or damage arising directly or indirectly out of the decline of authorization for any Transaction, on Account of the Cardholder having exceeded the preset limit mutually agreed by us with our acquiring bank from time to time.
+" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</RelativeLayout>

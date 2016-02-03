@@ -1,0 +1,121 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#33e3e3e3"
+    android:padding="5dp" >
+
+    <LinearLayout
+        android:id="@+id/rl"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#ffffff"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@drawable/topline"
+            android:orientation="vertical" >
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1" >
+
+            <LinearLayout
+                android:layout_width="1dp"
+                android:layout_height="fill_parent"
+                android:background="@drawable/leftline"
+                android:orientation="vertical" >
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/outlet"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:weightSum="1" >
+
+                    <ImageView
+                        android:id="@+id/productimage"
+                        android:layout_width="fill_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:padding="5dp"
+                        android:scaleType="fitXY" />
+
+                    <TextView
+                        android:id="@+id/name"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Shirt"
+                        android:textColor="#F6A81A" />
+
+                    <TextView
+                        android:id="@+id/oldprice"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="1200"
+                        android:textColor="#43545B" />
+
+                    <TextView
+                        android:id="@+id/newprice"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="1000"
+                        android:textColor="#43545B"
+                        android:textStyle="bold"
+                        android:typeface="normal" />
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/like"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:src="@drawable/heart_active" />
+
+                <TextView
+                    android:id="@+id/discount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/like"
+                    android:layout_alignParentLeft="true"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/messagedialogoutline"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:text="7 % off"
+                    android:padding="5dp"
+                    android:textColor="#333"
+                    android:textSize="12dp" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="1dp"
+                android:layout_height="fill_parent"
+                android:background="@drawable/rightline"
+                android:orientation="vertical" >
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@drawable/dividing_line"
+            android:orientation="vertical" >
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

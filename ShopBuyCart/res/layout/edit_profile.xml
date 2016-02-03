@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/scrollView2"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/viewOne"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="30dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/shopping_cart_add" />
+
+    <LinearLayout
+        android:id="@+id/enterdetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/viewOne"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Enter Details"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:id="@+id/textView2" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/enterdetails"
+        android:id="@+id/editname"
+        android:layout_height="50dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:background="@drawable/edit_text_back"
+            android:hint="Product Name"
+            android:gravity="center"
+            android:paddingLeft="10dp"
+            
+            android:paddingRight="10dp"
+            android:id="@+id/editText_name" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/country_layout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/editname"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:background="@drawable/edit_text_back"
+            android:hint="Country"
+            android:gravity="center"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textSize="18dp"
+            android:id="@+id/country" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/country_layout"
+        android:id="@+id/city_layout"
+        android:layout_height="50dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:background="@drawable/edit_text_back"
+            android:hint="City"
+            android:textSize="18dp"
+            android:gravity="center"
+            android:paddingLeft="10dp"
+            
+            android:paddingRight="10dp"
+            android:id="@+id/city_edit_profile" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/bith_layout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/city_layout"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:background="@drawable/edit_text_back"
+            android:hint="Date"
+            android:paddingLeft="10dp"
+            android:textSize="18dp"
+            android:gravity="center"
+            
+            android:paddingRight="10dp"
+            android:id="@+id/birth_edit" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/about_layout"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_below="@+id/bith_layout"
+        android:layout_margin="5dp"
+        android:background="@drawable/edit_text_back"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            
+            android:gravity="top"
+            android:hint="Product Description"
+            android:paddingLeft="5dp"
+            android:background="@null"
+            android:paddingRight="5dp"
+            android:id="@+id/about" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/about_layout"
+        android:id="@+id/submit_layout"
+
+        android:layout_margin="5dp"
+        android:gravity="center"
+        android:layout_height="100dp">
+
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="150dp"
+            android:layout_height="45dp"
+            android:background="@drawable/update_btn_back"
+            android:textColor="@color/white"
+            android:text="Submit"
+            android:id="@+id/update" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@+id/about_layout"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="14dp"
+        android:src="@drawable/back" />
+
+</RelativeLayout>
+
+    </LinearLayout>
+    </ScrollView>

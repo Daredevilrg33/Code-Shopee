@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="amit.techie33.shopbuycart"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="24" />
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+
+    <supports-screens
+        android:anyDensity="true"
+        android:resizeable="true" />
+
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="false" >
+    </uses-feature>
+
+    <permission
+        android:name="amit.techie33.shopbuycart.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <!-- for card.io card scanning -->
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <application
+        android:name="amit.techie33.shopbuycart.Globals"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".Splash"
+            android:configChanges="orientation|keyboardHidden|screenSize" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Terms"
+            android:configChanges="orientation|keyboardHidden|screenSize" >
+        </activity>
+        <activity
+            android:name=".Home"
+            android:configChanges="orientation|keyboardHidden|screenSize" >
+        </activity>
+        <activity
+            android:name=".Search"
+            android:configChanges="orientation|keyboardHidden|screenSize" >
+        </activity>
+        <activity
+            android:name=".RatingApp"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:theme="@style/Theme.Transparent" >
+        </activity>
+        <activity
+            android:name=".Category"
+            android:configChanges="orientation|keyboardHidden|screenSize" >
+        </activity>
+        <activity
+            android:name=".Product"
+            android:configChanges="orientation|keyboardHidden|screenSize" />
+        <activity
+            android:name=".Cart"
+            android:configChanges="orientation|keyboardHidden|screenSize" />
+        <activity
+            android:name=".ProductDetail"
+            android:configChanges="orientation|keyboardHidden|screenSize" />
+        <activity
+            android:name=".Account"
+            android:configChanges="orientation|keyboardHidden|screenSize" />
+        <activity
+            android:name=".Login"
+            android:configChanges="orientation|keyboardHidden|screenSize" />
+        <activity
+            android:name=".AdminPage"
+            android:configChanges="orientation|keyboardHidden|screenSize" />
+        <activity
+            android:name=".AdminCatList"
+            android:configChanges="orientation|keyboardHidden|screenSize" />
+        <activity
+            android:name=".AdminSubcat"
+            android:configChanges="orientation|keyboardHidden|screenSize" />
+        <activity
+            android:name=".Adminproductsview"
+            android:configChanges="orientation|keyboardHidden|screenSize" />
+        
+         <activity
+            android:name=".AminOrder"
+            android:configChanges="orientation|keyboardHidden|screenSize" />
+        <activity
+            android:name=".AddProduct"
+            android:configChanges="orientation|keyboardHidden|screenSize" />
+         
+          <activity
+            android:name=".Seller_Sign_up"
+            android:configChanges="orientation|keyboardHidden|screenSize" />
+           <activity
+            android:name=".Seller_Login"
+            android:configChanges="orientation|keyboardHidden|screenSize" />
+           <activity
+            android:name=".Seller_home"
+            android:configChanges="orientation|keyboardHidden|screenSize" />
+           <activity
+            android:name=".Seller_add_product"
+            android:configChanges="orientation|keyboardHidden|screenSize" />
+        
+        
+    </application>
+
+</manifest>

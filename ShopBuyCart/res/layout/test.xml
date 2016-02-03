@@ -1,0 +1,97 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@drawable/respone_dialog"
+        android:orientation="vertical"
+        android:padding="20dp" >
+
+        <TextView
+            android:id="@+id/cat"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="You Can Add Coupan And Send to Email"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#01DF01"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/coupancode"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:hint=""
+            android:inputType="textWebEmailAddress"
+            android:padding="5dp"
+            android:singleLine="true"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/discountamount"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/respone_dialog"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:hint="Enter Discount Rupee"
+            android:inputType="textWebEmailAddress"
+            android:padding="5dp"
+            android:singleLine="true" />
+
+        <EditText
+            android:id="@+id/emailaddress"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/respone_dialog"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:hint="Enter EmailID "
+            android:inputType="textWebEmailAddress"
+            android:padding="5dp"
+            android:singleLine="true" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="5dp" >
+
+            <LinearLayout
+                android:id="@+id/send"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/green"
+                android:orientation="vertical"
+                android:padding="15dp" >
+
+                <ImageView
+                    android:id="@+id/imageView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/cancel" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

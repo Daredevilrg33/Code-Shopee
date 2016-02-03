@@ -1,0 +1,171 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#99e3e3e3" >
+
+    <LinearLayout
+        android:id="@+id/blurrimage"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="2dp" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@drawable/topline"
+                    android:orientation="vertical" >
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#99ffffff"
+                    android:weightSum="1" >
+
+                    <LinearLayout
+                        android:layout_width="1dp"
+                        android:layout_height="fill_parent"
+                        android:background="@drawable/leftline"
+                        android:orientation="vertical" >
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical" >
+
+                        <LinearLayout
+                            android:id="@+id/addd"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical" >
+
+                            <TextView
+                                android:id="@+id/textView1"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="ADDRESS : "
+                                android:textColor="#F6A81A"
+                                android:textStyle="bold"
+                                android:typeface="serif" />
+
+                            <TextView
+                                android:id="@+id/addressorder"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:textColor="#F6A81A"
+                                android:textSize="12dp" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:background="@drawable/dividing_line"
+                                android:orientation="vertical" >
+                            </LinearLayout>
+
+                            <TextView
+                                android:id="@+id/typeorder"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:text="PAYMENT METHOD : Cash on devilery ( COD )"
+                                android:textColor="#F6A81A"
+                                android:textSize="12dp"
+                                android:textStyle="bold"
+                                android:typeface="serif" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:background="@drawable/dividing_line"
+                                android:orientation="vertical" >
+                            </LinearLayout>
+                        </LinearLayout>
+
+                        <TextView
+                            android:id="@+id/productname"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:background="@drawable/messagedialogoutline"
+                            android:gravity="left|center"
+                            android:padding="10dp"
+                            android:scaleType="fitXY"
+                            android:text="productname"
+                            android:textColor="#43545B"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/size"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="2dp"
+                            android:padding="4dp"
+                            android:text="Product size"
+                            android:textColor="#000" />
+
+                        <TextView
+                            android:id="@+id/quntity"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="2dp"
+                            android:padding="4dp"
+                            android:text="product quantity"
+                            android:textColor="#000" />
+
+                        <TextView
+                            android:id="@+id/price"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="2dp"
+                            android:padding="4dp"
+                            android:text="product price"
+                            android:textColor="#000" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center" >
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="1dp"
+                        android:layout_height="fill_parent"
+                        android:background="@drawable/rightline"
+                        android:orientation="vertical" >
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@drawable/dividing_line"
+                    android:orientation="vertical" >
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/status"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="status"
+                    android:textStyle="bold"
+                    android:visibility="gone" />
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+</RelativeLayout>
